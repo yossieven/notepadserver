@@ -1,0 +1,7 @@
+const graphqlHTTP = require('express-graphql');
+
+const app = require('app');
+
+app.use('/graphql', graphqlHTTP({
+
+}))
